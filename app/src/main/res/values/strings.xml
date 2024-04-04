@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ClubQuiz</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="api_stats">API stats</string>
+    <string name="search">Search</string>
+    <!-- Bottom Navigation Menu -->
+    <string name="home">Home</string>
+    <string name="categories">Categories</string>
+    <string name="library">Library</string>
+    <!-- About -->
+    <string name="github">GitHub</string>
+    <string name="authors">Authors</string>
+    <string name="license">License</string>
+    <!-- General Settings -->
+    <string name="general">General</string>
+    <string name="unlimited_mode">Unlimited mode</string>
+    <string name="questions_delay">Time between questions</string>
+    <string name="delay_auto">Auto</string>
+    <string name="delay_infinite">Infinite</string>
+    <string name="sounds">Sounds</string>
+    <!-- API Settings -->
+    <string name="api">API</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="random">Random</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="limit">Limit</string>
+    <!-- Appearance Settings -->
+    <string name="appearance">Appearance</string>
+    <string name="themeMode">Theme</string>
+    <string name="systemTheme">System</string>
+    <string name="lightTheme">Light</string>
+    <string name="darkTheme">Dark</string>
+    <string name="blackTheme">Black</string>
+    <string name="default_tab">Default tab</string>
+    <string name="labelVisibility">Label visibility</string>
+    <string name="selected">Selected</string>
+    <string name="labeled">Labeled</string>
+    <string name="unlabeled">Unlabeled</string>
+    <!-- Backup and restore -->
+    <string name="backup_restore">Backup and restore</string>
+    <string name="backup">Backup</string>
+    <string name="restore">Restore</string>
+    <string name="restore_success">Restored all quizzes :)</string>
+    <string name="restore_error">Could not restore the quizzes :(</string>
+    <!-- Other Settings -->
+    <string name="reset_stats">Reset stats</string>
+    <string name="clear_library">Clear library</string>
+    <string name="irreversible">Are you sure? This can\'t be undone!</string>
+    <string name="reset">Reset</string>
+    <!-- Custom Quiz -->
+    <string name="create_quiz">Create Quiz</string>
+    <string name="quiz_name">Name</string>
+    <string name="name_empty">Fill out the name.</string>
+    <string name="item_empty">Please fill out all fields.</string>
+    <string name="question">Question</string>
+    <string name="correct_answer">Correct Answer</string>
+    <string name="incorrect_answers">Incorrect Answers</string>
+    <string name="add">Add</string>
+    <string name="finish">Finish</string>
+    <string name="save_quiz">Save quiz</string>
+    <string name="save_quiz_message">Save the quiz\?</string>
+    <!-- Library -->
+    <string name="questions">Questions: %1$s</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="restart">Restart</string>
+    <string name="rename">Rename</string>
+    <string name="library_empty">Library is empty.</string>
+    <!-- Download -->
+    <string name="download">Download Quiz</string>
+    <string name="none">None</string>
+    <!-- Result -->
+    <string name="result_great">Great Job!</string>
+    <string name="result_average">Average performance</string>
+    <string name="result_fail">Fail</string>
+    <string name="result_stats">%1$s correct answers</string>
+    <string name="retry">Retry</string>
+    <!-- User Stats -->
+    <string name="user_stats">User Stats</string>
+    <string name="answered_questions">Answered questions</string>
+    <string name="correct_answers">Correct answers</string>
+    <string name="percentage_correct_answers">Correct answer rate</string>
+    <string name="library_quizzes">Quizzes in library</string>
+    <string name="library_questions">Questions in library</string>
+    <string name="created_quizzes">Created quizzes</string>
+    <string name="created_questions">Created questions</string>
+    <string name="downloaded_quizzes">Downloaded quizzes</string>
+    <string name="downloaded_questions">Downloaded questions</string>
+    <!-- Internet -->
+    <string name="network_error">Network error</string>
+    <string name="unknown_error">Unknown error</string>
+</resources>

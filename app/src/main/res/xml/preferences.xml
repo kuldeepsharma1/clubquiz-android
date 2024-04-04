@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/general">
+
+        <CheckBoxPreference
+            android:defaultValue="@string/unlimited_mode_default"
+            android:icon="@drawable/ic_extension"
+            app:key="@string/unlimited_mode_key"
+            app:title="@string/unlimited_mode" />
+
+        <ListPreference
+            android:defaultValue="@string/questions_delay_default"
+            android:entries="@array/questionsDelay"
+            android:entryValues="@array/questionsDelayValues"
+            android:icon="@drawable/ic_timer"
+            app:key="@string/questions_delay_key"
+            app:title="@string/questions_delay"
+            app:useSimpleSummaryProvider="true" />
+
+        <CheckBoxPreference
+            android:defaultValue="@string/sounds_default"
+            android:icon="@drawable/ic_sound"
+            app:key="@string/sounds_key"
+            app:title="@string/sounds" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/api">
+
+        <ListPreference
+            android:defaultValue="@string/api_default"
+            android:entries="@array/api"
+            android:entryValues="@array/apiValues"
+            android:icon="@drawable/ic_server"
+            app:key="@string/api_key"
+            app:title="@string/api"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:defaultValue="@string/difficulty_default"
+            android:entries="@array/difficulties"
+            android:entryValues="@array/difficultiesValues"
+            android:icon="@drawable/ic_check"
+            app:key="@string/difficulty_key"
+            app:title="@string/difficulty"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:defaultValue="@string/limit_default"
+            android:entries="@array/limits"
+            android:entryValues="@array/limits"
+            android:icon="@drawable/ic_archive"
+            app:key="@string/limit_key"
+            app:title="@string/limit"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/appearance">
+
+        <ListPreference
+            android:defaultValue="@string/theme_mode_default"
+            android:entries="@array/themeMode"
+            android:entryValues="@array/themeModeValues"
+            android:icon="@drawable/ic_theme"
+            app:key="@string/theme_mode_key"
+            app:title="@string/themeMode"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:defaultValue="@string/label_visibility_default"
+            android:entries="@array/labelVisibility"
+            android:entryValues="@array/labelVisibilityValues"
+            android:icon="@drawable/ic_label"
+            app:key="@string/label_visibility_key"
+            app:title="@string/labelVisibility"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:defaultValue="@string/default_tab_default"
+            android:entries="@array/defaultTab"
+            android:entryValues="@array/defaultTabValues"
+            android:icon="@drawable/ic_home"
+            app:key="@string/default_tab_key"
+            app:title="@string/default_tab"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/backup_restore">
+
+        <Preference
+            android:icon="@drawable/ic_backup"
+            app:key="@string/backup_key"
+            app:title="@string/backup" />
+
+        <Preference
+            android:icon="@drawable/ic_restore"
+            app:key="@string/restore_key"
+            app:title="@string/restore" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/reset">
+
+        <Preference
+            android:icon="@drawable/ic_reset"
+            app:key="@string/reset_stats_key"
+            app:title="@string/reset_stats" />
+
+        <Preference
+            android:icon="@drawable/ic_clear"
+            app:key="@string/clear_library_key"
+            app:title="@string/clear_library" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

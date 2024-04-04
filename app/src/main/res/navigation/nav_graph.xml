@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.kuldeep.clubquiz.fragments.OnlineQuizFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_quiz" />
+
+    <fragment
+        android:id="@+id/categoriesFragment"
+        android:name="com.kuldeep.clubquiz.fragments.CategoriesFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_quiz" />
+
+    <fragment
+        android:id="@+id/libraryFragment"
+        android:name="com.kuldeep.clubquiz.fragments.LibraryFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_quiz" />
+
+    <fragment
+        android:id="@+id/apiStatsFragment"
+        android:name="com.kuldeep.clubquiz.fragments.ApiStatsFragment"
+        android:label="@string/api_stats"
+        tools:layout="@layout/fragment_stats" />
+
+    <fragment
+        android:id="@+id/userStatsFragment"
+        android:name="com.kuldeep.clubquiz.fragments.UserStatsFragment"
+        android:label="@string/user_stats"
+        tools:layout="@layout/fragment_stats" />
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.kuldeep.clubquiz.fragments.SearchFragment"
+        android:label="@string/search"
+        tools:layout="@layout/fragment_stats" />
+</navigation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="medium">মাঝারি</string>
+    <string name="limit">মাত্রা</string>
+    <string name="easy">সহজ</string>
+    <string name="hard">কঠিন</string>
+    <string name="random">দৈব</string>
+    <string name="blackTheme">কালো</string>
+    <string name="default_tab">ডিফল্ট ট্যাব</string>
+    <string name="themeMode">থিম</string>
+    <string name="systemTheme">সিস্টেম</string>
+    <string name="lightTheme">লাইট</string>
+    <string name="darkTheme">ডার্ক</string>
+    <string name="retry">পুনঃচেষ্টা</string>
+    <string name="home">মূল পর্দা</string>
+    <string name="license">লাইসেন্স</string>
+    <string name="search">খুঁজুন</string>
+    <string name="settings">Settings</string>
+    <string name="about">সম্পর্কে</string>
+    <string name="irreversible">আপনি নিশ্চিত\? এটি পূর্বাবস্থায় ফেরত নেয়া সম্ভব হবে না!</string>
+    <string name="reset">রিসেট</string>
+    <string name="delete">মুছুন</string>
+    <string name="rename">পুণঃনামকরণ</string>
+</resources>
