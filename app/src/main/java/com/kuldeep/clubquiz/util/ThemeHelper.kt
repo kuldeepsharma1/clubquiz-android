@@ -20,7 +20,7 @@ object ThemeHelper {
             else -> AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM
         }
         AppCompatDelegate.setDefaultNightMode(themeMode)
-        if (themePref == "black") context.setTheme(R.style.Theme_TriviaYou_Black)
+        if (themePref == "black") context.setTheme(R.style.Theme_ClubQuiz_Black)
     }
 
     fun getThemeColor(context: Context, colorCode: Int): Int {
